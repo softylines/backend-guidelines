@@ -758,6 +758,8 @@ _Why:_
       > `204 No Content` response represents success but there is no content to be sent in the response. Use it when `DELETE` operation succeeds.
 
       > `304 Not Modified` response is to minimize information transfer when the recipient already has cached representations.
+	  
+	  > `422 Unprocessable Content` indicates the server understands the content type of the request entity, and the syntax of the request entity is correct, but it won't let the request to be processed.
 
       > `400 Bad Request` for when the request was not processed, as the server could not understand what the client is asking for.
 
